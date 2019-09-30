@@ -1,12 +1,14 @@
 const { assert, expect } = require('chai');
 const puppeteer = require('puppeteer');
+const dotenv = require('dotenv');
+dotenv.config(); // LOAD CONFIG
 
 const timeout = 10000;
 
 //테스트할 ID
-const test_id = 'test@classting.com';
+const test_id = process.env.test_id;
 //테스트할 PW
-const test_pw = '121314';
+const test_pw = process.env.test_pw;
 
 //입력 할 텍스트
 const insert_name =  'insert_' + Math.random().toString(36).substring(2, 15);
