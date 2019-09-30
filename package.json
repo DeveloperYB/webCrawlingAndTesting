@@ -1,0 +1,27 @@
+{
+  "name": "web-crawling-with-testing",
+  "version": "1.0.0",
+  "description": "## 웹 크롤링? 스크래핑? > 웹 크롤링 - 웹 크롤러(자동화 봇)가 일정 규칙으로 웹페이지를 브라우징 하는 것<br /> 웹 스크래핑 - 웹 사이트 상에서 원하는 정보를 추출하는 기술",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperYB/webCrawlingAndTesting.git"
+  },
+  "author": "Wabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloperYB/webCrawlingAndTesting/issues"
+  },
+  "homepage": "https://github.com/DeveloperYB/webCrawlingAndTesting#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "mocha": "^6.2.1",
+    "puppeteer": "^1.20.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
